@@ -14,3 +14,7 @@ WIN_COMBINATIONS = [
   [0, 4, 8], #digonal
   [2, 4, 6], #digonal
   ]
+  
+def won?
+  
+end
