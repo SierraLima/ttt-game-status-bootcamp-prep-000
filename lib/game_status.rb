@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS do |combination_array| 
     combination_array do |conbination| 
-      if conbination == "X" || "Y"
-        conbination
+      if position_taken?(conbination) == "X" || "Y"
+        conbination_array
       end
 end
