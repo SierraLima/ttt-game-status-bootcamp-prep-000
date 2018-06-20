@@ -18,8 +18,8 @@ WIN_COMBINATIONS = [
   
 def won?(board)
   WIN_COMBINATIONS.detect do |combination_array| 
-   board[combination_array[0]] == "X" || "Y"
-        combination
+   board[combination_array[0]] == board[combination_array[0]]
+   board[combination_array[0]] == board[combination_array[0]]
       end
   
   end
