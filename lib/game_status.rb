@@ -19,7 +19,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |combination_array| 
     combination_array.each do |combination| 
       if board[combination] == "X" || "Y"
-        combination_array
+        
       end
     end
   end
