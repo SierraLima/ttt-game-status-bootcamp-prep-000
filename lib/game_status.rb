@@ -22,6 +22,7 @@ def won?(board)
       if board[combination_array] == "X" || "Y"
         combination_array
       end
+    end  
   end
 end
 
