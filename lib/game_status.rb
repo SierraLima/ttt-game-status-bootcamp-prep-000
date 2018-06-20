@@ -24,8 +24,9 @@ def won?(board)
 end
  
 def full?(board) 
-  board.all?{ |element| element == "X" || element == "Y"}
+  board.all?{ |element| element == "X" || element == "O"}
 end
+
 
 def draw?(board)
   full?(board) && !won?(board)
