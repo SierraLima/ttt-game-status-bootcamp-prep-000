@@ -15,7 +15,9 @@ WIN_COMBINATIONS = [
   [2, 4, 6]  #digonal
   ]
   
-  
+  WIN_COMBINATIONS.detect do |combination_array| 
+   board[combination_array[0]]
+  end
 def won?(board)
   WIN_COMBINATIONS.detect do |combination_array| 
    board[combination_array[0]] == board[combination_array[1]] &&
