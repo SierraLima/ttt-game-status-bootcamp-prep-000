@@ -12,7 +12,7 @@ WIN_COMBINATIONS = [
   [1, 4, 7], #middle row
   [2, 5, 8], #right row
   [0, 4, 8], #digonal
-  [2, 4, 6], #digonal
+  [2, 4, 6]  #digonal
   ]
   
 def won?
