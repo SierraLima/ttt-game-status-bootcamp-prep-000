@@ -17,9 +17,7 @@ WIN_COMBINATIONS = [
   
 def won?
   WIN_COMBINATIONS.each do |combination_array| 
-    combination_array.each do |combination|
-      puts combination
-    end
+     puts combination_array.inspect
   end
 end
 
