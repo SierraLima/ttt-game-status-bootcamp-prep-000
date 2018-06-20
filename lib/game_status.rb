@@ -18,6 +18,7 @@ WIN_COMBINATIONS = [
   
 def won
   WIN_COMBINATIONS.each do |combination_array| 
+  end
 end
 
 def full?(board) 
