@@ -25,6 +25,7 @@ def won?(board)
 end
 
 def full?(board) 
+  board.each 
 end
 
 def draw?(board)
