@@ -18,9 +18,9 @@ WIN_COMBINATIONS = [
   
 def won?(board)
   WIN_COMBINATIONS.detect do |combination_array| 
-   board[combination_array[0]] == board[combination_array[0]]
-   board[combination_array[0]] == board[combination_array[0]]
-      end
+   board[combination_array[0]] == board[combination_array[1]]
+   board[combination_array[1]] == board[combination_array[2]]
+   position_taken?(board, index)
   
   end
 end
