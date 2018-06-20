@@ -11,5 +11,6 @@ WIN_COMBINATIONS = [
   [0, 3, 6], #left row
   [1, 4, 7], #middle row
   [2, 5, 8], #right row
-  
+  [0, 4, 8], #left row
+  [2, 4, 6], #middle row
   ]
