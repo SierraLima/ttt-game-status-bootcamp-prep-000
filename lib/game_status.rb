@@ -20,10 +20,10 @@ def won?(board)
   WIN_COMBINATIONS.detect do |combination_array| 
    board[combination_array[0]] == board[combination_array[1]] &&
    board[combination_array[1]] == board[combination_array[2]]
-   position_taken?(board, combination_array[0])
+  
   end
 end
-
+ position_taken?(board, combination_array[0])
 def full?(board) 
   board.all? { |element| element == "X" || element == "Y"
 end
