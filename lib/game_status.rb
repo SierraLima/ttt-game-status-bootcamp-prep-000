@@ -29,4 +29,8 @@ end
 def draw?(board)
 end
 
-def 
+def over?(board)
+end
+
+def winner?(board)
+end
