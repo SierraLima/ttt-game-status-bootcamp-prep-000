@@ -21,8 +21,8 @@ def won?(board)
    
       if board[combination] == "X" || "Y"
         combination
-    
-    end  
+      end
+  
   end
 end
 
