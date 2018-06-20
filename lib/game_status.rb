@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2, 4, 6], #digonal
   ]
   
-def won?(board)
+def won?
   WIN_COMBINATIONS.each do |combination_array| 
        puts combination_array
   end
