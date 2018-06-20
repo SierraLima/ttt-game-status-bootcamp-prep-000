@@ -22,3 +22,8 @@ def won?(board)
         conbination_array
       end
 end
+
+def full?(board)
+end
+
+def
