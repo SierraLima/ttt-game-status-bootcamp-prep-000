@@ -22,9 +22,9 @@ def won?(board)
     position_taken?(board, combo[0])
   end
 end
-
-def full?(board)
-  board.all?{|token| token == "X" || token == "O"}
+ 
+def full?(board) 
+  board.all? { |element| element == "X" || element == "Y"
 end
 
 def draw?(board)
@@ -32,11 +32,8 @@ def draw?(board)
 end
 
 def over?(board)
-  won?(board) || full?(board)
+  full?(board) && won?
 end
 
-def winner(board)
-  if winning_combo = won?(board)
-    board[winning_combo.first]
-  end
+def winner?(board)
 end
