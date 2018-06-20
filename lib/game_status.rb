@@ -37,5 +37,5 @@ end
 
 def winner?(board)
   if result = won?board
-  
+   result[reslut.first]
 end
