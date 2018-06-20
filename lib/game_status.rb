@@ -15,19 +15,12 @@ WIN_COMBINATIONS = [
   [2, 4, 6]  #digonal
   ]
   
-nested_students = [
-  ["Mike", "Grade 10", "A average"],
-  ["Tim", "Grade 10", "C average"],
-  ["Monique", "Grade 11", "B average", "Class President"]
-]
   
 def won
-  nested_students.each do |student_array|
- 
-  end
+  WIN_COMBINATIONS.each do |combination_array| 
 end
- WIN_COMBINATIONS.each do |combination_array| 
-def full?(board)
+
+def full?(board) 
 end
 
 def draw?(board)
