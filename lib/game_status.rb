@@ -16,6 +16,7 @@ WIN_COMBINATIONS = [
   ]
   
 def won
+  nested_students.each do |student_array|
   WIN_COMBINATIONS.each do |combination_array| 
   end
 end
