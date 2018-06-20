@@ -16,6 +16,6 @@ WIN_COMBINATIONS = [
   ]
   
 def won?(board)
-  if WIN_COMBINATIONS do |combination_array| 
+  WIN_COMBINATIONS do |combination_array| 
     combination_array do |conbination| == "X" || "Y"
 end
