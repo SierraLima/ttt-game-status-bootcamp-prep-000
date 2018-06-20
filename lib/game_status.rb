@@ -23,10 +23,10 @@ nested_students = [
   
 def won
   nested_students.each do |student_array|
-  WIN_COMBINATIONS.each do |combination_array| 
+ 
   end
 end
-
+ WIN_COMBINATIONS.each do |combination_array| 
 def full?(board)
 end
 
