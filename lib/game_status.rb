@@ -21,6 +21,8 @@ def won?(board)
       if position_taken?(conbination) == "X" || "Y"
         conbination_array
       end
+    end
+  end
 end
 
 def full?(board)
