@@ -18,6 +18,8 @@ WIN_COMBINATIONS = [
   
 def won
   WIN_COMBINATIONS.each do |combination_array| 
+    if board[combination_array] == "X" || "Y"
+      combination_array
   end
 end
 
