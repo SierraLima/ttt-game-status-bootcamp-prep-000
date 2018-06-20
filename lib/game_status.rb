@@ -36,4 +36,6 @@ def over?(board)
 end
 
 def winner?(board)
+  result = won?board
+  if result =  
 end
