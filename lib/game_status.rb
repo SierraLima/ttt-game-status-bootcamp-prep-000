@@ -16,11 +16,12 @@ WIN_COMBINATIONS = [
   ]
   
   
-def won
+def won?(board)
   WIN_COMBINATIONS.each do |combination_array| 
-    if board[combination_array] == "X" || "Y"
-      combination_array
-    end
+    combination_array.each do |comination|
+      if board[combination_array] == "X" || "Y"
+        combination_array
+      end
   end
 end
 
